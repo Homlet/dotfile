@@ -1,0 +1,16 @@
+set nocompatible
+set backspace=indent,eol,start
+set backup
+set history=50
+set ruler
+set background=dark
+set showcmd
+set mouse=a
+set incsearch
+syntax on
+set hlsearch
+set backupdir=~/.vim/tmp,.
+set directory=~/.vim/tmp,.
+set tabstop=4
+set shiftwidth=4
+set expandtab
