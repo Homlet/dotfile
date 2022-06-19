@@ -13,6 +13,6 @@ for file in $1/*; do
     fi
 
     echo ~/$(basename $file) "->" $file
-    ln -s "$(readlink -f $file)" ~/"$(basename $file)"
+    ln -sf "$(greadlink -f $file)" ~/"$(basename $file)"
 done
 
